@@ -11,10 +11,11 @@ cd <project_folder_name>
 code .
 
 # Create a new UV environment with Python 3.12
-UV venv .venv
+uv init
+uv venv .venv
 
 # Activate the environment (use full path to the environment)-- using Gitbash
 source .venv/scripts/activate
 
 # Install dependencies from requirements.txt
-pip install -r requirements.txt
+uv pip install -r requirements.txt
