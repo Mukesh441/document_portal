@@ -10,8 +10,9 @@ cd <project_folder_name>
 # Open the folder in VS Code
 code .
 
+# Initialize the UV
+uv init 
 # Create a new UV environment with Python 3.12
-uv init
 uv venv .venv
 
 # Activate the environment (use full path to the environment)-- using Gitbash
